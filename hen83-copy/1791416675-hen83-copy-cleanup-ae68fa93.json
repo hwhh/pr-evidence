@@ -1,0 +1,55 @@
+{
+  "head": "ae68fa93971c3e0e9cd3f9b04513b54a4fde4ffb",
+  "tree": "f60c6931ba0d9bec74b99688aed07facd74d26aa",
+  "trackedClean": true,
+  "deviceAbsent": true,
+  "ports": [
+    {
+      "port": 8104,
+      "closed": true
+    },
+    {
+      "port": 10914,
+      "closed": true
+    },
+    {
+      "port": 8114,
+      "closed": true
+    },
+    {
+      "port": 9214,
+      "closed": true
+    },
+    {
+      "port": 9314,
+      "closed": true
+    },
+    {
+      "port": 5588,
+      "closed": true
+    },
+    {
+      "port": 5589,
+      "closed": true
+    }
+  ],
+  "stoppedBeforeRestoration": true,
+  "removedTemporaryFiles": [
+    ".hen83-copy-preview.tsx",
+    ".hen83-copy-hooks.js",
+    ".hen83-copy-meta.json"
+  ],
+  "restoredSourceHashes": {
+    "index.js": "f065117ca96b5832bf8f123cf747bd8c147679a1041a911b0ab9356f46c6fab7",
+    "metro.config.js": "5587e38f0c72f00abe0b21a41a7f243686986ddd13da7c724e023d9a2578af6c",
+    "src/app/Main.tsx": "caf2afe9a48b25fd9ef23db92c1ac4b30d504283ec9ff35d7f704339088dcbd2",
+    "src/app/settings/Settings.tsx": "d2961b60e5fcafc2895056de24b7525044986d25588500d5aeaece1527e28a9e",
+    "src/app/setUp/instantSettle/EnableInstantSettle.tsx": "5bd87e251d1f3f7a249f88a5a54e0fe0a9f930f191fba66a781a52b42a38142b"
+  },
+  "onlyShippingDiff": [
+    "src/app/setUp/instantSettle/EnableInstantSettle.tsx",
+    "src/app/settings/Settings.tsx"
+  ],
+  "fullGateCarriedForwardSameBytes": "225 suites/1586 tests +16/type/lint; no product change from ae68fa9",
+  "proof": "/tmp/hen83-fee-copy-evidence/component-preview/native-component-proof.json"
+}
