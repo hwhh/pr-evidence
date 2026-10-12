@@ -1,0 +1,116 @@
+{
+  "provider": {
+    "status": "SANDBOX_EMBEDDED_CREATE_STATUS_PROJECTION",
+    "observedUTC": "2026-10-12T22:58:44.126732+00:00",
+    "maximumPosts": 2,
+    "maximumGets": 2,
+    "postRequests": 2,
+    "getRequests": 2,
+    "results": [
+      {
+        "method": "GUEST_CHECKOUT_APPLE_PAY",
+        "postHTTP": 201,
+        "getHTTP": 200,
+        "postBodyClass": "json",
+        "getBodyClass": "json",
+        "postErrorClass": null,
+        "getErrorClass": null,
+        "paymentLinkPresent": true,
+        "authTokenPresent": true,
+        "createOutcomeUnknown": false,
+        "createdOrder": {
+          "orderIdSha256": "c6170edbf8b0713e8a1f518349ba797cdb77b904b4700d60baacf65ca94d7512",
+          "statusClass": "ONRAMP_ORDER_STATUS_PENDING_VERIFICATION",
+          "partnerRefMatches": true,
+          "destinationMatchesSynthetic": true,
+          "networkMatchesBase": true,
+          "currencyMatchesUSDUSDC": true,
+          "methodMatches": true,
+          "amounts": {
+            "paymentTotal": "5",
+            "paymentSubtotal": "4.88",
+            "purchaseAmount": "4.88"
+          },
+          "paymentTotalWithinUSD5": true,
+          "txHashPresent": false
+        },
+        "fetchedOrder": {
+          "orderIdSha256": "c6170edbf8b0713e8a1f518349ba797cdb77b904b4700d60baacf65ca94d7512",
+          "statusClass": "ONRAMP_ORDER_STATUS_PENDING_VERIFICATION",
+          "partnerRefMatches": true,
+          "destinationMatchesSynthetic": true,
+          "networkMatchesBase": true,
+          "currencyMatchesUSDUSDC": true,
+          "methodMatches": true,
+          "amounts": {
+            "paymentTotal": "5",
+            "paymentSubtotal": "4.88",
+            "purchaseAmount": "4.88"
+          },
+          "paymentTotalWithinUSD5": true,
+          "txHashPresent": false
+        }
+      },
+      {
+        "method": "GUEST_CHECKOUT_GOOGLE_PAY",
+        "postHTTP": 201,
+        "getHTTP": 200,
+        "postBodyClass": "json",
+        "getBodyClass": "json",
+        "postErrorClass": null,
+        "getErrorClass": null,
+        "paymentLinkPresent": true,
+        "authTokenPresent": true,
+        "createOutcomeUnknown": false,
+        "createdOrder": {
+          "orderIdSha256": "f2060a34b882966dd48dfe62fa3c9f5f38f24b5f992a55c3a7d2ee8bbea91d5c",
+          "statusClass": "ONRAMP_ORDER_STATUS_PENDING_VERIFICATION",
+          "partnerRefMatches": true,
+          "destinationMatchesSynthetic": true,
+          "networkMatchesBase": true,
+          "currencyMatchesUSDUSDC": true,
+          "methodMatches": true,
+          "amounts": {
+            "paymentTotal": "5",
+            "paymentSubtotal": "4.88",
+            "purchaseAmount": "4.88"
+          },
+          "paymentTotalWithinUSD5": true,
+          "txHashPresent": false
+        },
+        "fetchedOrder": {
+          "orderIdSha256": "f2060a34b882966dd48dfe62fa3c9f5f38f24b5f992a55c3a7d2ee8bbea91d5c",
+          "statusClass": "ONRAMP_ORDER_STATUS_PENDING_VERIFICATION",
+          "partnerRefMatches": true,
+          "destinationMatchesSynthetic": true,
+          "networkMatchesBase": true,
+          "currencyMatchesUSDUSDC": true,
+          "methodMatches": true,
+          "amounts": {
+            "paymentTotal": "5",
+            "paymentSubtotal": "4.88",
+            "purchaseAmount": "4.88"
+          },
+          "paymentTotalWithinUSD5": true,
+          "txHashPresent": false
+        }
+      }
+    ],
+    "allPartnerRefsSandboxPrefixed": true,
+    "allDestinationsSyntheticBurn": true,
+    "allCreatesNonQuoteSandbox": true,
+    "paymentLinksOrTokensPrinted": false,
+    "rawResponseRetained": false,
+    "credentialsRemoteRAMOnly": true,
+    "productionApprovalOrRealEligibilityProved": false,
+    "iosHost": "pay.coinbase.com",
+    "androidHost": "pay.coinbase.com"
+  },
+  "epoch": "f9a7a677-8c90-472d-8bf1-5e726e209d5a",
+  "events": {
+    "ios": [],
+    "android": []
+  },
+  "uriOrTokensRetainedToFile": false,
+  "genuineFunds": false
+}
